@@ -23,24 +23,24 @@ public class Main {
 			if (PB != 0) {
 				return Integer.toString(PA * PB);
 			} else {
-				return "µÚ¶ş×é×Ö·û´®¼ÆËãÓĞÎó";
+				return "ç¬¬äºŒç»„å­—ç¬¦ä¸²è®¡ç®—æœ‰è¯¯";
 			}
 		} else {
-			return "µÚÒ»×é×Ö·û´®¼ÆËãÓĞÎó";
+			return "ç¬¬ä¸€ç»„å­—ç¬¦ä¸²è®¡ç®—æœ‰è¯¯";
 		}
 	 }
 	
 	static int find(String s,int c){
 		/*
-		 * char×ªStringµÄ·½·¨£º
+		 * charè½¬Stringçš„æ–¹æ³•ï¼š
 		 *  String s=Character.toString(c);
 			String s=new String(new char[]{c});
 			String s=""+c;		
 			String s=String.valueOf(c);
 			
-		   char×ªint£¨String £©£º
-			String s=Integer.toString(char ch) ch×ªint£ºASCIIÂë 'ch'
-		   int×ªString
+		   charè½¬intï¼ˆString ï¼‰ï¼š
+			String s=Integer.toString(char ch) chè½¬intï¼šASCIIç  'ch'
+		   intè½¬String
 			Integer.toString(int i)	  "i"
 		 */
 		int cal=0,count=0;
@@ -57,9 +57,9 @@ public class Main {
 			}
 		}
 		for(int i=0;i<count;i++){
-			temp=temp.concat(strOfc); //temp³õÊ¼Öµ²»ÄÜÎªnull
+			temp=temp.concat(strOfc); //tempåˆå§‹å€¼ä¸èƒ½ä¸ºnull
 		}
-		System.out.println("½á¹û£º"+temp);
+		System.out.println("ç»“æœï¼š"+temp);
 		cal=Integer.parseInt(temp);
 		return cal;	
 	}
